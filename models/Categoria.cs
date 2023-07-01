@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace TareasNetApi.models;
+namespace TareasNetApi.Models;
 
 public class Categoria
 {

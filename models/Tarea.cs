@@ -14,7 +14,7 @@ public class Tarea {
     public string? Descripcion { get; set; }
     public Prioridad PrioridadTarea { get; set; }
     public DateTime FechaCreacion { get; set; }
-    public virtual Categoria Categorias { get; set; }
+    public virtual Categoria Categorias {get;set;}
     [NotMapped]
     public string Resumen { get; set; }
 }
